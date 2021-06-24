@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document19</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .first{
+            width: 20%;
+            height: 200px;
+            background-color: blue;
+            float: left;
+        }
+        .middle{
+            width: 60%;
+            height: 200px;
+            background-color: blueviolet;
+            float: left;
+        }
+        .second{
+            width: 20%;
+            height: 200px;
+            float: left;
+            background-color: brown;
+        }
+        @media screen and (max-width:800px){
+            .first,.middle,.second{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Min width</h2>
+    <div class="first">
+        Left Document
+    </div>
+    <div class="middle">
+        Middle Document 
+    </div>
+    <div class="second">
+        Right Document
+    </div>
+</body>
+</html>
